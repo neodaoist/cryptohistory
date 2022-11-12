@@ -20,7 +20,7 @@ contract cryptohistory is ERC721 {
         _mint(address(this), 1);
     }
 
-    function tokenURI(uint256 tokenID_) public view virtual override returns (string memory) {
+    function tokenURI(uint256 /*tokenId*/) public pure override returns (string memory) {
         string memory svg =
             '<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 350 350"><style>.base { fill: white; font-family: serif; font-size: 11px; }</style><rect width="100%" height="100%" fill="black" /><text x="11" y="22" class="base">cryptohistory 2022</text></svg>';
         string memory json = Base64.encode(
