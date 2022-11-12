@@ -7,10 +7,11 @@ _The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [Unminted]
 
 ### Features Added
-- 
+- Add on-chain 'what' and 'when'
+- Render JSON dynamically
+- Improve test coverage
 
 ### Bugs Fixed
-
 - Fix tokenURI() function signature
 
 ## Minted
